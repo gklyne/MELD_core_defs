@@ -1,0 +1,37 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/frbr_Expression",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "_type/frbr_Expression",
+  "annal:default_view": "_view/frbr_Expression",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "frbr_Expression",
+  "annal:list_entity_selector": "'frbr:Expression' in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_type",
+      "annal:field_placement": "small:3,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:6,6"
+    }
+  ],
+  "annal:record_type": "frbr:Expression",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "annal:uri": "annal:display/Default_list",
+  "rdfs:comment": "# FRBR Expressions\r\n\r\nList entities of type [Expression]($BASE:_type/frbr_Expression).",
+  "rdfs:label": "FRBR Expressions"
+}

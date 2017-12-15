@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/meld_Muzicode",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "meld_Muzicode",
+  "annal:supertype_uri": [
+    {
+      "@id": "mo:MusicalExpression"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/meld_Muzicode",
+  "annal:type_view": "_view/meld_Muzicode",
+  "annal:uri": "meld:Muzicode",
+  "rdfs:comment": "# MELD Muzicode\r\n\r\nEntity type [MELD Muzicode]($BASE:_type/meld_Muzicode), subtype of [Musical expression]($BASE:_type/mo_Expression).\r\n\r\nA Muzicode (i.e. recognizable sequence of notes) that is part of a musical expression.",
+  "rdfs:label": "MELD Muzicode"
+}

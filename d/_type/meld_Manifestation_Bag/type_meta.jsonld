@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/meld_Manifestation_Bag",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "meld_Manifestation_Bag",
+  "annal:supertype_uri": [
+    {
+      "@id": "frbr:Manifestation"
+    },
+    {
+      "@id": "rdf:Bag"
+    },
+    {
+      "@id": "rdfs:Container"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/meld_Manifestation_Bag",
+  "annal:type_view": "_view/meld_Manifestation_Bag",
+  "annal:uri": "meld:Manifestation_Bag",
+  "rdfs:comment": "# Manifestation as bag\r\n\r\nEntity type [Manifestation as bag]($BASE:_type/meld_Manifestation_Bag), subtype of [Manifestation]($BASE:_type/frbr_Manifestation).\r\n\r\nA manifestation of a FRBR expression that is presented as a (RDF) bag of resource references.",
+  "rdfs:label": "Manifestation as bag"
+}

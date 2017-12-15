@@ -1,0 +1,15 @@
+{
+  "@context": [
+    {
+      "@base": "../"
+    },
+    "../coll_context.jsonld"
+  ],
+  "@id": "so_Segment_Line",
+  "@type": [
+    "annal:Type_Data"
+  ],
+  "annal:id": "so_Segment_Line",
+  "annal:type": "annal:Type_Data",
+  "annal:type_id": "_entitytypedata"
+}

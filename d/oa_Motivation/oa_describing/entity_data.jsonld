@@ -1,0 +1,21 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "oa_Motivation/oa_describing",
+  "@type": [
+    "oa:Motivation",
+    "skos:Concept",
+    "annal:EntityData"
+  ],
+  "annal:id": "oa_describing",
+  "annal:type": "oa:Motivation",
+  "annal:type_id": "oa_Motivation",
+  "annal:uri": "oa:describing",
+  "rdfs:comment": "# Describe target\r\n\r\nThe motivation for when the user intends to describe the Target, as opposed to a comment about them.\r\n\r\nSee also: Web Annotation [Named Individuals](https://www.w3.org/TR/annotation-vocab/#named-individuals).\r\n",
+  "rdfs:label": "Describe target",
+  "skos:broader": ""
+}

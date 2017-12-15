@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/meld_startsWith",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "meld:MEIEmbodiment_bag",
+  "annal:field_fields": [],
+  "annal:field_placement": "",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/Identifier",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "rdfs:Resource",
+  "annal:id": "meld_startsWith",
+  "annal:placeholder": "(URI of referenced resource)",
+  "annal:property_uri": "meld:startsWith",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "Reference to a resource that is the start element of some embodiment in MEI.\r\n",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Reference to start of embodiment in MEI\r\n\r\nReference to a resource that is the start of a manifestation embodied in MEI: a reference to an MEI element.",
+  "rdfs:label": "Starts with"
+}

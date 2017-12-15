@@ -1,0 +1,38 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/frbr_embodiment_r",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "frbr:Expression",
+  "annal:field_fields": [
+    {
+      "annal:field_id": "_field/frbr_embodiment",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": "@id"
+    }
+  ],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/Group_Set_Row",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "frbr:Expression",
+  "annal:id": "frbr_embodiment_r",
+  "annal:placeholder": "(Zero, one or more Has embodiment fields)",
+  "annal:property_uri": "frbr:embodiment",
+  "annal:repeat_label_add": "Add Has embodiment",
+  "annal:repeat_label_delete": "Remove Has embodiment",
+  "annal:tooltip": "",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Has embodiments\r\n\r\nZero, one or more instances of [Has embodiment]($BASE:_field/frbr_embodiment).",
+  "rdfs:label": "Has embodiments"
+}

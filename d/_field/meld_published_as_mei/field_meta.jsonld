@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/meld_published_as_mei",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "mo:MusicalExpression",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/meld_Manifestation_MEI",
+  "annal:field_render_type": "_enum_render_type/Enum_optional",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "meld:Manifestation_MEI",
+  "annal:id": "meld_published_as_mei",
+  "annal:placeholder": "(Reference to published MEI manifestation of a musical expression)",
+  "annal:property_uri": "mo:published_as",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "Reference to published MEI manifestation of a musical expression.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Published MEI\r\n\r\nReferences a manifestation of a musical expression, published on the web as MEI.\r\n\r\n<!--\r\n* Subproperty of [Music published as]($BASE:_field/mo_published_as).\r\n-->",
+  "rdfs:label": "Published MEI"
+}

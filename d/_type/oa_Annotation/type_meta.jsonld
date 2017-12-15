@@ -1,0 +1,22 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/oa_Annotation",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "oa_Annotation",
+  "annal:supertype_uri": [],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/oa_Annotation",
+  "annal:type_view": "_view/oa_Annotation",
+  "annal:uri": "oa:Annotation",
+  "rdfs:comment": "# Generic annotation\r\n\r\nAn annotation that is applied to (or about) an arbitrary target.\r\n\r\nSee [Web Annotation Vocabulary](https://www.w3.org/TR/annotation-vocab/) for more information, specifically the class [Annotation](https://www.w3.org/TR/annotation-vocab/#annotation).",
+  "rdfs:label": "Generic annotation"
+}

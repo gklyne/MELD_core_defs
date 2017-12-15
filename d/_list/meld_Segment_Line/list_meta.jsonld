@@ -1,0 +1,37 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/meld_Segment_Line",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "_type/meld_Segment_Line",
+  "annal:default_view": "_view/meld_Segment_Line",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "meld_Segment_Line",
+  "annal:list_entity_selector": "'so:SegmentLine' in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_type",
+      "annal:field_placement": "small:3,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:6,6"
+    }
+  ],
+  "annal:record_type": "so:SegmentLine",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "annal:uri": "annal:display/Default_list",
+  "rdfs:comment": "# Musical segment lines\r\n\r\nList entities of type [Musical segment line]($BASE:_type/meld_Segment_Line).",
+  "rdfs:label": "Musical segment lines"
+}

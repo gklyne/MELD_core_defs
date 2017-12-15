@@ -1,0 +1,21 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "mo_Expression/test_mo_expr",
+  "@type": [
+    "mo:MusicalExpression",
+    "frbr:Group_1_entity",
+    "frbr:Expression",
+    "annal:EntityData"
+  ],
+  "annal:id": "test_mo_expr",
+  "annal:type": "mo:MusicalExpression",
+  "annal:type_id": "mo_Expression",
+  "frbr:part": [],
+  "rdfs:comment": "Test mo expr",
+  "rdfs:label": "Test mo expr"
+}

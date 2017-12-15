@@ -1,0 +1,33 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/oa_Motivation",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "_type/oa_Motivation",
+  "annal:default_view": "_view/oa_Motivation",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "oa_Motivation",
+  "annal:list_entity_selector": "'oa:Motivation' in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:3,9"
+    }
+  ],
+  "annal:record_type": "oa:Motivation",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "annal:uri": "annal:display/Default_list",
+  "rdfs:comment": "# Motivations for annotations\r\n\r\nList entities of type [Motivation for annotation]($BASE:_type/oa_Motivation).",
+  "rdfs:label": "Motivations for annotations"
+}

@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/mo_Expression",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "mo_Expression",
+  "annal:supertype_uri": [
+    {
+      "@id": "frbr:Expression"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/mo_Expression",
+  "annal:type_view": "_view/mo_Expression",
+  "annal:uri": "mo:MusicalExpression",
+  "rdfs:comment": "# Musical expression\r\n\r\nEntity type [Musical expression]($BASE:_type/mo_Expression), subtype of [Expression]($BASE:_type/frbr_Expression).\r\n\r\nSee also the [MEI `<expression>`](http://music-encoding.org/documentation/3.0.0/expression/) element.",
+  "rdfs:label": "Musical expression"
+}

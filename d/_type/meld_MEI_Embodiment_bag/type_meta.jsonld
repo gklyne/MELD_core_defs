@@ -1,0 +1,29 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/meld_MEI_Embodiment_bag",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "meld_MEI_Embodiment_bag",
+  "annal:supertype_uri": [
+    {
+      "@id": "mo:MusicalManifestation"
+    },
+    {
+      "@id": "meld:Manifestation_Bag"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/meld_MEI_Embodiment",
+  "annal:type_view": "_view/meld_MEI_Embodiment",
+  "annal:uri": "meld:MEIEmbodiment",
+  "rdfs:comment": "# MELD MEI embodiment bag\r\n\r\nEntity type [MELD MEI embodiment]($BASE:_type/meld_MEI_Embodiment), subtype of [FRBR manifestation as bag]($BASE:_type/frbr_Manifestation_Bag).\r\n\r\nInstances of this type are manifestations (which may or may not be musical), that are represented as references to one or more identified elements in an MEI document.",
+  "rdfs:label": "MELD MEI embodiment bag"
+}

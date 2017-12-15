@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/so_Segment_Line",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "so_Segment_Line",
+  "annal:supertype_uri": [
+    {
+      "@id": "mo:MusicalExpression"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/meld_Segment_Line",
+  "annal:type_view": "_view/meld_Segment_Line",
+  "annal:uri": "so:SegmentLine",
+  "rdfs:comment": "# Musical segment line\r\n\r\nEntity type [Musical segment line]($BASE:_type/so_Segment), subtype of [Musical expression]($BASE:_type/mo_Expression).\r\n\r\nSee also the [Musical segment]($BASE:_type/so_Segment).",
+  "rdfs:label": "Musical segment line"
+}

@@ -1,0 +1,22 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "meld_Annotation/test_meld_annotation",
+  "@type": [
+    "meld:Annotation",
+    "oa:Annotation",
+    "annal:EntityData"
+  ],
+  "annal:id": "test_meld_annotation",
+  "annal:type": "meld:Annotation",
+  "annal:type_id": "meld_Annotation",
+  "oa:hasBody": "mo_Expression/test_mo_expr",
+  "oa:hasTarget": "mo_Expression/test_mo_expr",
+  "oa:motivatedBy": "meld_Motivation/test_meld_motivation",
+  "rdfs:comment": "test @@meld annotartion",
+  "rdfs:label": "test @@meld annotartion"
+}

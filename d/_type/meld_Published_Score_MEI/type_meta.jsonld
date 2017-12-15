@@ -1,0 +1,29 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/meld_Published_Score_MEI",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "meld_Published_Score_MEI",
+  "annal:supertype_uri": [
+    {
+      "@id": "meld:Manifestation_MEI"
+    },
+    {
+      "@id": "mo:PublishedScore"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/frbr_Manifestation_MEI",
+  "annal:type_view": "_view/frbr_Manifestation_MEI",
+  "annal:uri": "meld:Published_Score_MEI",
+  "rdfs:comment": "# Published score as MEI\r\n\r\nEntity type [Published score]($BASE:_type/meld_Published_Score), subtype of [Musical manifestation as MEI]($BASE:_type/meld_Manifestation_MEI).",
+  "rdfs:label": "Published score as MEI"
+}

@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/mo_Item",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "mo_Item",
+  "annal:supertype_uri": [
+    {
+      "@id": "frbr:Item"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/frbr_Group1_entity",
+  "annal:type_view": "_view/frbr_Group1_entity",
+  "annal:uri": "mo:MusicalItem",
+  "rdfs:comment": "# Musical item\r\n\r\nEntity type [Musical item]($BASE:_type/mo_Item), subtype of [Item]($BASE:_type/frbr_Item).\r\n\r\nSee also the [MEI `<item>`](http://music-encoding.org/documentation/3.0.0/item/) element.",
+  "rdfs:label": "Musical item"
+}

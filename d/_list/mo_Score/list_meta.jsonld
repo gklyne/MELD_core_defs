@@ -1,0 +1,37 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/mo_Score",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "_type/mo_Score",
+  "annal:default_view": "_view/meld_Score",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "mo_Score",
+  "annal:list_entity_selector": "'mo:Score' in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_type",
+      "annal:field_placement": "small:3,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:6,6"
+    }
+  ],
+  "annal:record_type": "mo:Score",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "annal:uri": "annal:display/Default_list",
+  "rdfs:comment": "# Musical scores\r\n\r\nList entities of type [Musical expression as score]($BASE:_type/meld_Score).",
+  "rdfs:label": "Musical scores"
+}

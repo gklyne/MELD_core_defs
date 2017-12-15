@@ -1,0 +1,21 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "oa_Motivation/oa_identifying",
+  "@type": [
+    "oa:Motivation",
+    "skos:Concept",
+    "annal:EntityData"
+  ],
+  "annal:id": "oa_identifying",
+  "annal:type": "oa:Motivation",
+  "annal:type_id": "oa_Motivation",
+  "annal:uri": "oa:identifying",
+  "rdfs:comment": "# Identify target or thing described\r\n\r\nThe motivation for when the user intends to assign an identity to the Target or identify what is being depicted or described in the Target.\r\n\r\nSee also: Web Annotation [Named Individuals](https://www.w3.org/TR/annotation-vocab/#named-individuals).",
+  "rdfs:label": "Identify target or thing described",
+  "skos:broader": ""
+}

@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/frbr_Manifestation_MEI",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "frbr_Manifestation_MEI",
+  "annal:supertype_uri": [
+    {
+      "@id": "frbr:Manifestation"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/frbr_Manifestation_MEI",
+  "annal:type_view": "_view/frbr_Manifestation_MEI",
+  "annal:uri": "frbr:Manifestation_MEI",
+  "rdfs:comment": "# Manifestation as MEI\r\n\r\nA manifestation as [MEI](http://music-encoding.org/) of some [Expression]($BASE:_type/frbr_Expression). \r\n\r\n* Subtype of [Manifestation]($BASE:_type/frbr_Manifestation).\r\n",
+  "rdfs:label": "Manifestation as MEI"
+}

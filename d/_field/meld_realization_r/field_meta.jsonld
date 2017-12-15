@@ -1,0 +1,38 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/meld_realization_r",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "meld:Work",
+  "annal:field_fields": [
+    {
+      "annal:field_id": "_field/meld_realization",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": "@id"
+    }
+  ],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/Group_Set_Row",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "meld:Work",
+  "annal:id": "meld_realization_r",
+  "annal:placeholder": "(Zero, one or more Music realized as fields)",
+  "annal:property_uri": "meld:realization",
+  "annal:repeat_label_add": "Add realization",
+  "annal:repeat_label_delete": "Remove realization",
+  "annal:tooltip": "",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Musical woprl realizations\r\n\r\nZero, one or more instances of [Music realized as]($BASE:_field/meld_realization).",
+  "rdfs:label": "Musical work realizations"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/meld_motivation",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "meld:Annotation",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/meld_Motivation",
+  "annal:field_render_type": "_enum_render_type/Enum_optional",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "meld:motivation",
+  "annal:id": "meld_motivation",
+  "annal:placeholder": "(Select motivation for annotation)",
+  "annal:property_uri": "oa:motivatedBy",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "Represents a kind of motivation for a musical annotation.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Motivation for musical annotation\r\n\r\nMotivation associated with a musical annotation.\r\n\r\nSee also Web Annotation property [motivatedBy](https://www.w3.org/TR/annotation-vocab/#motivatedby).",
+  "rdfs:label": "Motivation for musical annotation"
+}

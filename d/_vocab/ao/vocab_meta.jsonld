@@ -1,0 +1,19 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_vocab/ao",
+  "@type": [
+    "annal:Vocabulary"
+  ],
+  "annal:id": "ao",
+  "annal:type": "annal:Vocabulary",
+  "annal:type_id": "_vocab",
+  "annal:uri": "http://www.w3.org/ns/oa#",
+  "rdfs:comment": "# Web annotation vocabulary\r\n\r\nThe [Web Annotation Vocabulary](https://www.w3.org/TR/annotation-vocab/) specifies the set of RDF classes, predicates and named entities that are used by the [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/).",
+  "rdfs:label": "Web annotation vocabulary",
+  "rdfs:seeAlso": []
+}

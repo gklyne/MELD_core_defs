@@ -1,0 +1,33 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/meld_Sessions",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "_type/meld_Session",
+  "annal:default_view": "_view/meld_Session",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "meld_Sessions",
+  "annal:list_entity_selector": "'meld:Session' in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:3,9"
+    }
+  ],
+  "annal:record_type": "meld:Session",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "annal:uri": "annal:display/Default_list",
+  "rdfs:comment": "# MELD sessions\r\n\r\nList entities of type [MELD session]($BASE:_type/meld_Session).",
+  "rdfs:label": "MELD sessions"
+}

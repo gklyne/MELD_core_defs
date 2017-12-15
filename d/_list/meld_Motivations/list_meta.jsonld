@@ -1,0 +1,33 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/meld_Motivations",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "_type/meld_Motivation",
+  "annal:default_view": "_view/meld_Motivation",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "meld_Motivations",
+  "annal:list_entity_selector": "'meld:motivation' in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:3,9"
+    }
+  ],
+  "annal:record_type": "meld:motivation",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "annal:uri": "annal:display/Default_list",
+  "rdfs:comment": "# Motivations for musical annotations\r\n\r\nList entities of type [Motivation for musical annotation]($BASE:_type/meld_Motivation).",
+  "rdfs:label": "Motivations for musical annotations"
+}

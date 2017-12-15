@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/oa_Motivation",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "oa_Motivation",
+  "annal:supertype_uri": [
+    {
+      "@id": "skos:Concept"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/oa_Motivation",
+  "annal:type_view": "_view/oa_Motivation",
+  "annal:uri": "oa:Motivation",
+  "rdfs:comment": "# Motivation for annotation\r\n\r\nSee Web Annotation class [Motivation](https://www.w3.org/TR/annotation-vocab/#motivation) and property [motivatedBy](https://www.w3.org/TR/annotation-vocab/#motivatedby)\r\n",
+  "rdfs:label": "Motivation for annotation"
+}

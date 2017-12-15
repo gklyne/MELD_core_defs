@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/mo_PublishedScore",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "mo_PublishedScore",
+  "annal:supertype_uri": [
+    {
+      "@id": "mo:MusicalManifestation"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/frbr_Manifestation",
+  "annal:type_view": "_view/frbr_Manifestation",
+  "annal:uri": "mo:PublishedScore",
+  "rdfs:comment": "# Published score (manifestation, format unspecified)\r\n\r\nEntity type [Published score]($BASE:_type/mo_PublishedScore), subtype of [Musical manifestation]($BASE:_type/mo_Manifestation).",
+  "rdfs:label": "Published score"
+}

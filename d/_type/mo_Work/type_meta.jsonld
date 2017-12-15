@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/mo_Work",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "mo_Work",
+  "annal:supertype_uri": [
+    {
+      "@id": "frbr:Work"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/mo_Work",
+  "annal:type_view": "_view/mo_Work",
+  "annal:uri": "mo:MusicalWork",
+  "rdfs:comment": "# Musical work\r\n\r\nEntity type [Musical Work]($BASE:_type/mo_Work), subtype of [Work]($BASE:_type/frbr_Work).\r\n\r\nSee also the [MEI `<work>`](http://music-encoding.org/documentation/3.0.0/work/) element.",
+  "rdfs:label": "Musical work"
+}

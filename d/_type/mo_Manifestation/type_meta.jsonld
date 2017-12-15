@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/mo_Manifestation",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "mo_Manifestation",
+  "annal:supertype_uri": [
+    {
+      "@id": "frbr:Manifestation"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/frbr_Manifestation",
+  "annal:type_view": "_view/frbr_Manifestation",
+  "annal:uri": "mo:MusicalManifestation",
+  "rdfs:comment": "# Musical manifestation\r\n\r\nEntity type [Musical manifestation]($BASE:_type/mo_Manifestation), subtype of [Manifestation]($BASE:_type/frbr_Manifestation).\r\n\r\nSee also the [MEI `<source>`](http://music-encoding.org/documentation/3.0.0/source/) element.",
+  "rdfs:label": "Musical manifestation"
+}

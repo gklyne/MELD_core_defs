@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/meld_Annotation",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "meld_Annotation",
+  "annal:supertype_uri": [
+    {
+      "@id": "oa:Annotation"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/meld_Annotations",
+  "annal:type_view": "_view/meld_Annotation",
+  "annal:uri": "meld:Annotation",
+  "rdfs:comment": "# Musical annotation\r\n\r\nAn annotation that is applied to a musical expression",
+  "rdfs:label": "Musical annotation"
+}

@@ -1,0 +1,37 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/mo_Work",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "_type/mo_Work",
+  "annal:default_view": "_view/mo_Work",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "mo_Work",
+  "annal:list_entity_selector": "'mo:MusicalWork' in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_type",
+      "annal:field_placement": "small:3,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:6,6"
+    }
+  ],
+  "annal:record_type": "mo:MusicalWork",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "annal:uri": "annal:display/Default_list",
+  "rdfs:comment": "# Musical works\r\n\r\nList entities of type [Musical work]($BASE:_type/mo_Work).",
+  "rdfs:label": "Musical works"
+}

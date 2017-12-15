@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/oa_hasBody",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "oa:Annotation",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12;medium:6,6",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/frbr_Group1_entity",
+  "annal:field_render_type": "_enum_render_type/Enum_optional",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "rdfs:Resource",
+  "annal:id": "oa_hasBody",
+  "annal:placeholder": "(Reference to annotation body)",
+  "annal:property_uri": "oa:hasBody",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "Reference to annotation body.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Annotation has body\r\n\r\n@@TODO: figure out/define value type for annotation body - check OA spec @@",
+  "rdfs:label": "Annotation body"
+}

@@ -1,0 +1,24 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "meld_Motivation/test_meld_motivation",
+  "@type": [
+    "meld:motivation",
+    "oa:Motivation",
+    "skos:Concept",
+    "annal:EntityData"
+  ],
+  "annal:id": "test_meld_motivation",
+  "annal:missing_field": "",
+  "annal:missing_field__2": "",
+  "annal:type": "meld:motivation",
+  "annal:type_id": "meld_Motivation",
+  "annal:uri": "meld:test",
+  "rdfs:comment": "Test meld motivation",
+  "rdfs:label": "Test meld motivation",
+  "skos:broader": "oa_Motivation/oa_linking"
+}
