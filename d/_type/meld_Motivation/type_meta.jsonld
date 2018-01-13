@@ -13,7 +13,7 @@
   "annal:id": "meld_Motivation",
   "annal:supertype_uri": [
     {
-      "@id": "oa:Motivation"
+      "@id": "ao:Motivation"
     }
   ],
   "annal:type": "annal:Type",

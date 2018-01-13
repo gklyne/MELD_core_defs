@@ -7,14 +7,14 @@
   ],
   "@id": "oa_Motivation/oa_linking",
   "@type": [
-    "oa:Motivation",
+    "ao:Motivation",
     "skos:Concept",
     "annal:EntityData"
   ],
   "annal:id": "oa_linking",
-  "annal:type": "oa:Motivation",
+  "annal:type": "ao:Motivation",
   "annal:type_id": "oa_Motivation",
-  "annal:uri": "oa:linking",
+  "annal:uri": "ao:linking",
   "rdfs:comment": "# Link target or related resource\r\n\r\nThe motivation for when the user intends to link to a resource related to the Target.\r\n\r\nSee also: Web Annotation [Named Individuals](https://www.w3.org/TR/annotation-vocab/#named-individuals).",
   "rdfs:label": "Link target or related resource",
   "skos:broader": ""

@@ -13,7 +13,7 @@
   "annal:id": "meld_Annotation",
   "annal:supertype_uri": [
     {
-      "@id": "oa:Annotation"
+      "@id": "ao:Annotation"
     }
   ],
   "annal:type": "annal:Type",

@@ -7,14 +7,14 @@
   ],
   "@id": "oa_Motivation/oa_replying",
   "@type": [
-    "oa:Motivation",
+    "ao:Motivation",
     "skos:Concept",
     "annal:EntityData"
   ],
   "annal:id": "oa_replying",
-  "annal:type": "oa:Motivation",
+  "annal:type": "ao:Motivation",
   "annal:type_id": "oa_Motivation",
-  "annal:uri": "oa:replying",
+  "annal:uri": "ao:replying",
   "rdfs:comment": "# Reply about target\r\n\r\nThe motivation for when the user intends to reply to a previous statement, either an Annotation or another resource.\r\n\r\nSee also: Web Annotation [Named Individuals](https://www.w3.org/TR/annotation-vocab/#named-individuals).",
   "rdfs:label": "Reply about target",
   "skos:broader": ""

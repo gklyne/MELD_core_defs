@@ -7,14 +7,14 @@
   ],
   "@id": "oa_Motivation/oa_editing",
   "@type": [
-    "oa:Motivation",
+    "ao:Motivation",
     "skos:Concept",
     "annal:EntityData"
   ],
   "annal:id": "oa_editing",
-  "annal:type": "oa:Motivation",
+  "annal:type": "ao:Motivation",
   "annal:type_id": "oa_Motivation",
-  "annal:uri": "oa:editing",
+  "annal:uri": "ao:editing",
   "rdfs:comment": "# Request change to target\r\n\r\nThe motivation for when the user intends to request a change or edit to the Target resource.\r\n\r\nSee also: Web Annotation [Named Individuals](https://www.w3.org/TR/annotation-vocab/#named-individuals).",
   "rdfs:label": "Request change to target",
   "skos:broader": ""

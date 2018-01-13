@@ -7,14 +7,14 @@
   ],
   "@id": "oa_Motivation/oa_questioning",
   "@type": [
-    "oa:Motivation",
+    "ao:Motivation",
     "skos:Concept",
     "annal:EntityData"
   ],
   "annal:id": "oa_questioning",
-  "annal:type": "oa:Motivation",
+  "annal:type": "ao:Motivation",
   "annal:type_id": "oa_Motivation",
-  "annal:uri": "oa:questioning",
+  "annal:uri": "ao:questioning",
   "rdfs:comment": "# Question about target\r\n\r\nThe motivation for when the user intends to ask a question about the Target.\r\n\r\nSee also: Web Annotation [Named Individuals](https://www.w3.org/TR/annotation-vocab/#named-individuals).",
   "rdfs:label": "Question about target",
   "skos:broader": ""

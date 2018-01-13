@@ -11,7 +11,7 @@
   ],
   "annal:id": "oa_Motivation",
   "annal:open_view": true,
-  "annal:record_type": "oa:Motivation",
+  "annal:record_type": "ao:Motivation",
   "annal:type": "annal:View",
   "annal:type_id": "_view",
   "annal:uri": "annal:display/Default_view",
