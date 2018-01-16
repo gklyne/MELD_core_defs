@@ -21,7 +21,7 @@
   "annal:field_value_type": "meld:motivation",
   "annal:id": "meld_motivation",
   "annal:placeholder": "(Select motivation for annotation)",
-  "annal:property_uri": "ao:motivatedBy",
+  "annal:property_uri": "oa:motivatedBy",
   "annal:repeat_label_add": "Add",
   "annal:repeat_label_delete": "Remove",
   "annal:tooltip": "Represents a kind of motivation for a musical annotation.",

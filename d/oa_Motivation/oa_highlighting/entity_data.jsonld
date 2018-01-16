@@ -7,14 +7,14 @@
   ],
   "@id": "oa_Motivation/oa_highlighting",
   "@type": [
-    "ao:Motivation",
+    "oa:Motivation",
     "skos:Concept",
     "annal:EntityData"
   ],
   "annal:id": "oa_highlighting",
-  "annal:type": "ao:Motivation",
+  "annal:type": "oa:Motivation",
   "annal:type_id": "oa_Motivation",
-  "annal:uri": "ao:highlighting",
+  "annal:uri": "oa:highlighting",
   "rdfs:comment": "# Highlight target or segment\r\n\r\nThe motivation for when the user intends to highlight the Target resource or segment of it.\r\n\r\nSee also: Web Annotation [Named Individuals](https://www.w3.org/TR/annotation-vocab/#named-individuals).",
   "rdfs:label": "Highlight target or segment",
   "skos:broader": ""

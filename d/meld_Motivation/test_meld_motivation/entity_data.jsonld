@@ -8,7 +8,7 @@
   "@id": "meld_Motivation/test_meld_motivation",
   "@type": [
     "meld:motivation",
-    "ao:Motivation",
+    "oa:Motivation",
     "skos:Concept",
     "annal:EntityData"
   ],

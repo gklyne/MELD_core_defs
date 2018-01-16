@@ -7,14 +7,14 @@
   ],
   "@id": "oa_Motivation/oa_classifying",
   "@type": [
-    "ao:Motivation",
+    "oa:Motivation",
     "skos:Concept",
     "annal:EntityData"
   ],
   "annal:id": "oa_classifying",
-  "annal:type": "ao:Motivation",
+  "annal:type": "oa:Motivation",
   "annal:type_id": "oa_Motivation",
-  "annal:uri": "ao:classifying",
+  "annal:uri": "oa:classifying",
   "rdfs:comment": "# Classifying target\r\n\r\nThe motivation for when the user intends to that classify the Target as something.\r\n\r\nSee also: Web Annotation [Named Individuals](https://www.w3.org/TR/annotation-vocab/#named-individuals).",
   "rdfs:label": "Classifying target",
   "skos:broader": ""

@@ -7,14 +7,14 @@
   ],
   "@id": "oa_Motivation/oa_assessing",
   "@type": [
-    "ao:Motivation",
+    "oa:Motivation",
     "skos:Concept",
     "annal:EntityData"
   ],
   "annal:id": "oa_assessing",
-  "annal:type": "ao:Motivation",
+  "annal:type": "oa:Motivation",
   "annal:type_id": "oa_Motivation",
-  "annal:uri": "ao:assessing",
+  "annal:uri": "oa:assessing",
   "rdfs:comment": "# Assessment of target\r\n\r\nThe motivation for when the user intends to provide an assessment about the Target resource.\r\n\r\nSee also: Web Annotation [Named Individuals](https://www.w3.org/TR/annotation-vocab/#named-individuals).",
   "rdfs:label": "Assessment of target",
   "skos:broader": ""

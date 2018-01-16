@@ -7,14 +7,14 @@
   ],
   "@id": "oa_Motivation/oa_moderating",
   "@type": [
-    "ao:Motivation",
+    "oa:Motivation",
     "skos:Concept",
     "annal:EntityData"
   ],
   "annal:id": "oa_moderating",
-  "annal:type": "ao:Motivation",
+  "annal:type": "oa:Motivation",
   "annal:type_id": "oa_Motivation",
-  "annal:uri": "ao:moderating",
+  "annal:uri": "oa:moderating",
   "rdfs:comment": "# Moderate target\r\n\r\nThe motivation for when the user intends to assign some value or quality to the Target.\r\n\r\nSee also: Web Annotation [Named Individuals](https://www.w3.org/TR/annotation-vocab/#named-individuals).",
   "rdfs:label": "Moderate target",
   "skos:broader": ""
