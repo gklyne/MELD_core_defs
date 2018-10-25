@@ -11,10 +11,10 @@
   ],
   "annal:id": "frbr_Manifestation_MEI",
   "annal:open_view": true,
-  "annal:record_type": "frbr:Manifestation_MEI",
   "annal:type": "annal:View",
   "annal:type_id": "_view",
   "annal:uri": "annal:display/Default_view",
+  "annal:view_entity_type": "frbr:Manifestation_MEI",
   "annal:view_fields": [
     {
       "annal:field_id": "_field/Entity_id",

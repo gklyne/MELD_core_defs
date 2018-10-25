@@ -11,10 +11,10 @@
   ],
   "annal:id": "frbr_Work",
   "annal:open_view": true,
-  "annal:record_type": "frbr:Work",
   "annal:type": "annal:View",
   "annal:type_id": "_view",
   "annal:uri": "annal:display/Default_view",
+  "annal:view_entity_type": "frbr:Work",
   "annal:view_fields": [
     {
       "annal:field_id": "_field/Entity_id",
